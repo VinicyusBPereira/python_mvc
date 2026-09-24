@@ -15,7 +15,6 @@ class Model:
         print("  7-model (verificando/criando tabela)")
         try:
             cursor = self.conexao.cursor()
-            # SQL para criar a tabela, SÓ SE ELA NÃO EXISTIR
             cursor.execute("""
             CREATE TABLE IF NOT EXISTS alunos (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
