@@ -79,8 +79,7 @@ class View:
         self.frame_baixo = ttk.Frame(self.janela, height=50, style='Cinza.TFrame')
         self.frame_baixo.pack(fill="x", padx=1, pady=1, side="bottom")
         self.frame_baixo.pack_propagate(False)
-        
-        # Mudei os botões de baixo para serem exemplos
+      
         self.botao_salvar_exemplo = ttk.Button(
             self.frame_baixo, 
             text="Salvar (Exemplo)", 
